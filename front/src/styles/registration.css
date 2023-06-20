@@ -1,0 +1,33 @@
+.registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+  width: fit-content;
+  padding: 40px;
+  border-radius: 20px;
+  margin: auto;
+  color: #fff;
+}
+.registration button {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+}
+
+.login-link {
+  margin: 8px;
+  cursor: pointer;
+}
+
+.registration-main {
+  background-image: url("https://img.freepik.com/free-vector/watercolour-background-with-leaves_91008-314.jpg?w=2000");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 150px;
+}

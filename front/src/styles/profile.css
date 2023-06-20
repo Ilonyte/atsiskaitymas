@@ -1,0 +1,42 @@
+.profilePage {
+  display: flex;
+  padding-top: 150px;
+  justify-content: center;
+  gap: 50px;
+  height: 100vh;
+  background-image: url("https://img.freepik.com/free-vector/watercolour-background-with-leaves_91008-314.jpg?w=2000");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profileMain {
+  display: flex;
+  gap: 40px;
+  background-color: blueviolet;
+  padding: 30px;
+  color: #fff;
+  height: fit-content;
+  border-radius: 20px;
+}
+
+.profileUsername {
+  font-size: 40px;
+}
+
+.userInformation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.userInformation img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.loginError {
+  color: red;
+  margin-top: 10px;
+}

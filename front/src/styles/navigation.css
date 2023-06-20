@@ -1,0 +1,15 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 50px;
+  background-color: blueviolet;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 1rem;
+  font-size: 30px;
+}
